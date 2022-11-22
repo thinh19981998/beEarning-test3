@@ -1,0 +1,27 @@
+.wordItem {
+  width: 101px;
+  height: 32px;
+  background: #ffffff;
+  box-shadow: 0px 7px 32px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 6px 8px;
+  font-size: 15px;
+  font-family: 'ClearSans Regular';
+  color: #04004d;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background: #bbcffb;
+    border-radius: 50%;
+    font-size: 11px;
+    font-family: 'ClearSans Medium';
+    color: #004dff;
+    margin-right: 8px;
+  }
+}
